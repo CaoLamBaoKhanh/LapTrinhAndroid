@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#3CB371">
+    <LinearLayout
+        android:id="@+id/lnlo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="#2E8B57">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn dịch vụ"
+            android:textSize="27dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="THOÁT"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="#B8B8B8"
+            android:textColor="@color/black"
+            >
+
+        </Button>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imggiatui"
+        android:layout_below="@+id/lnlo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/giatui"
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_below="@+id/imggiatui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giặt ủi"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/imgkhachsan"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/lnlo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/khachsan">
+
+    </ImageView>
+    <TextView
+        android:layout_below="@+id/imgkhachsan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khách sạn"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/imgtaxi"
+        android:layout_below="@+id/imggiatui"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/taxi">
+
+    </ImageView>
+    <TextView
+        android:layout_below="@+id/imgtaxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Taxi"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/imgfastfood"
+        android:layout_below="@+id/imgkhachsan"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/foodfast"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentEnd="true">
+
+    </ImageView>
+    <TextView
+        android:layout_below="@+id/imgfastfood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thức ăn nhanh"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/imgtransport"
+        android:layout_below="@+id/imgfastfood"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/transport"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentEnd="true">
+
+    </ImageView>
+    <TextView
+        android:layout_below="@+id/imgtransport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vận chuyển"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp">
+
+    </TextView>
+</RelativeLayout>

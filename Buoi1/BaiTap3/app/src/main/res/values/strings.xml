@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BaiTap3</string>
+    <string name="placehoder">HaLong Bay</string>
+    <string name="halongbay">Ha Long Bay</string>
+    <string name="camera">Camera</string>
+    <string name="settings">Settings</string>
+    <string name="lorem">Seeking for a travel hub that is a mystical and magnificent feat of nature
+    that never fails to impress? The one and only HaLong Bay can be put into your list as a
+    must-come spot when visiting the Northest of Vietnam. Recognized as a UNESCO World Heritage Site
+    twice, HaLong Bay is under  the management of both Quang Ninh and Hai Phong provinces.</string>
+    <string name="camera_value"><hint>Leica M Typ 240</hint></string>
+    <string name="sertting_value"><hint>f/4 16s ISO 200</hint></string>
+    <string name="upload">UPLOAD</string>
+    <string name="discard">DISCARD</string>
+</resources>

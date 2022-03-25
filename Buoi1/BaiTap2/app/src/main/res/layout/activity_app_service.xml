@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppService"
+    android:background="#3CB371"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#2E8B57">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose the services"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp">
+
+            </TextView>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#808080"
+                android:text="EXIT">
+
+            </Button>
+        </LinearLayout>
+        <TableLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:stretchColumns="*">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="138dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/giatui"
+                        android:layout_marginTop="15dp">
+
+                    </ImageButton>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Giặt ủi"
+                        android:backgroundTint="#3CB371"
+                        android:textSize="25dp"
+                        android:layout_gravity="center">
+
+                    </Button>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="138dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/khachsan"
+                        android:layout_marginTop="15dp">
+
+                    </ImageButton>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Khách sạn"
+                        android:backgroundTint="#3CB371"
+                        android:textSize="25dp"
+                        android:layout_gravity="center">
+
+                    </Button>
+                </LinearLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="138dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/taxi"
+                        android:layout_marginTop="15dp">
+
+                    </ImageButton>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Taxi"
+                        android:backgroundTint="#3CB371"
+                        android:textSize="25dp"
+                        android:layout_gravity="center">
+
+                    </Button>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="138dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/foodfast"
+                        android:layout_marginTop="15dp">
+
+                    </ImageButton>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fastfood"
+                        android:backgroundTint="#3CB371"
+                        android:textSize="25dp"
+                        android:layout_gravity="center">
+
+                    </Button>
+                </LinearLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="138dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/vanchuyen">
+
+                    </ImageButton>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:backgroundTint="#3CB371"
+                        android:text="Vận chuyển"
+                        android:textSize="25dp">
+
+                    </Button>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>
